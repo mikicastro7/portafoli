@@ -180,7 +180,7 @@ footer{
 .fa-envelope-o:hover{
     color: #a4d3f3;
 }
-.fa-github:hover{
+footer .fa-github:hover{
     color: #a4d3f3;
 }
 .fa-linkedin:hover{
@@ -232,6 +232,29 @@ footer{
     text-align: center;
     font-size: 24px;
 }
+.links{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.link-elem{
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    background-color: white;
+    color: #007bff;
+}
+.link-elem:hover{
+    color: #0252a7;
+    border: 1px solid #0252a7;
+}
+.link-elem:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 @media only screen and (max-width: 768px) {
     .about-me-text{
         width: 90%;
@@ -257,6 +280,10 @@ footer{
     .pro-butt{
         width: 90%;
     }
+    .link-elem{
+        margin-top: 20px;
+    }
+    
   }
 
 
@@ -270,4 +297,5 @@ footer{
         padding-top: 10px;
         padding-bottom: 25px;
     }
+    
 }
